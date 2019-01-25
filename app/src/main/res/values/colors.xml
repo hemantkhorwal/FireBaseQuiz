@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#292c3e</color>
+    <color name="colorPrimaryDark">#8c92b7</color>
+    <color name="colorAccent">#a77888</color>
+    <color name="textcolor">#C0C0C0</color>
+    <color name="half">#95060608</color>
+    <color name="hover">#030303</color>
+    <color name="border">#142C43</color>
+    <color name="green">#39FF14</color>
+    <color name="red">#f12c2f</color>
+    <color name="back">#63469c</color>
+    <color name="offer">#1E1F33</color>
+    <color name="offer_color">#AD2068</color>
+</resources>
+

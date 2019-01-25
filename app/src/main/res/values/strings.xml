@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Harry Potter</string>
+    <string name="Points">Points</string>
+    <string name="Lives">Lives</string>
+    <string name="TitleOnRight">Congrats</string>
+    <string name="MsgOnRightAns">Right Answer</string>
+    <string name="Next">Next</string>
+    <string name="RateUs">Rate Us</string>
+    <string name="TitleOnWrong">Ohhh</string>
+    <string name="MsgOnWrong">Wrong Answer</string>
+    <string name="TitleOnLevelCom">Level Completed</string>
+    <string name="MsgOnLevelCom">Congratulation you have completed the level</string>
+    <string name="TitleOnLevelLost">Level Lost</string>
+    <string name="MsgOnLevelLost">Try again and complete.</string>
+    <string name="ButtonRestart">Restart</string>
+    <string name="ButtonBack">Back</string>
+    <string name="BackTitle">Go Back</string>
+    <string name="ProgressLost">All the progress of this quiz will be lost.</string>
+    <string name="Back">Back</string>
+    <string name="Continue">Continue</string>
+    <string name="Reset">Reset Levels</string>
+    <string name="ResetMSG">Resting Levels will make you to start the game form very begining.</string>
+    <string name="ResetButton">Reset</string>
+    <string name="InternetTitle">Internet Required</string>
+    <string name="InternetMSg">Please turn on the internet to play the quiz</string>
+    <string name="Novus">Novus Softs</string>
+    <string name="NovusMsg">This app is a fan made quiz for all harry potter fans . This is not an official app for bloomsburyy or warner bros.</string>
+    <string name="ChkUpdate">Check For Updates</string>
+    <string name="read_t_amp_c_from_here">Every Week One Wiiner\n<![CDATA[Read T&C]]>\nand Privacy Policy</string>
+</resources>

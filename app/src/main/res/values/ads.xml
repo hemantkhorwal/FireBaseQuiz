@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="appId">ca-app-pub-4117504965058580~5818997619</string>
+    <!--
+            <string name="banner">ca-app-pub-4117504965058580/7573743046</string>
+            <string name="banner1">ca-app-pub-4117504965058580/7573743046</string>
+            <string name="banner2">ca-app-pub-4117504965058580/7688365791</string>
+            <string name="inter">ca-app-pub-4117504965058580/6146300674</string>
+            <string name="inter2">ca-app-pub-4117504965058580/6146300674</string>
+        -->
+         <string name="banner">ca-app-pub-3940256099942544/6300978111</string>
+         <string name="banner1">ca-app-pub-3940256099942544/6300978111</string>
+         <string name="banner2">ca-app-pub-3940256099942544/6300978111</string>
+         <string name="inter">ca-app-pub-3940256099942544/1033173712</string>
+         <string name="inter2">ca-app-pub-3940256099942544/1033173712</string>
+
+</resources>

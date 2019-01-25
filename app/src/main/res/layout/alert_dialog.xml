@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/offer_back">
+    <LinearLayout
+        android:layout_margin="10sp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+   <TextView
+       android:id="@+id/errorTitle"
+       android:layout_gravity="center"
+       android:textSize="25sp"
+       android:layout_margin="10sp"
+       android:padding="5sp"
+       android:text="Complete Previous level"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/errorMessage"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:padding="10sp"
+        android:text="You have to complete previoius level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/positive"
+            android:layout_weight="1"
+            android:layout_margin="5sp"
+            android:textSize="20sp"
+            android:background="@color/offer_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/negative"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:layout_margin="5sp"
+            android:layout_width="match_parent"
+            android:background="@color/offer_color"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

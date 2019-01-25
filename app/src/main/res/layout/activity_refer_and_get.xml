@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/backk"
+    android:layout_height="match_parent"
+    tools:context="harrypottergame.novussoft.pottergameofquiz.ReferAndGet">
+
+    <Button
+        android:id="@+id/refer"
+        android:background="@color/offer_color"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150sp"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
+        android:text="Refer And Get 100 Points"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/fbshare"
+        android:background="@color/offer_color"
+        android:textSize="20sp"
+        android:layout_below="@id/refer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10sp"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
+        android:text="Share on FB Get 100"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/star"
+        android:background="@color/offer_color"
+        android:textSize="20sp"
+        android:layout_below="@id/fbshare"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10sp"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
+        android:text="Give 5 Star and get 100 More"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/more"
+        android:background="@color/offer_color"
+        android:textSize="20sp"
+        android:layout_below="@id/star"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10sp"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
+        android:text="Try Other Apps"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

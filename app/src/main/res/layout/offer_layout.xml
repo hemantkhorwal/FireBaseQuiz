@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/offer_back"
+    >
+    <RelativeLayout
+        android:layout_margin="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/close"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_action_close"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_alignParentEnd="true" />
+    <TextView
+        android:id="@+id/titleText"
+        android:textSize="25sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="10sp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/books_png"
+            android:scaleType="fitXY"
+            android:src="@drawable/title"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/titleText"
+            android:layout_width="250sp"
+            android:layout_height="200sp" />
+
+        <EditText
+            android:hint="Email"
+            android:id="@+id/getEmail"
+            android:layout_below="@id/books_png"
+            android:textSize="15sp"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="5sp"
+            android:layout_marginTop="5sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginLeft="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/hint"
+            android:text="If you win we will contact you on this given email so make sure it is correct."
+            android:layout_below="@id/getEmail"
+            android:textSize="15sp"
+            android:layout_margin="5sp"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+     <Button
+         android:id="@+id/button1"
+         android:textSize="20sp"
+         android:text="Submit"
+         android:background="#AD2068"
+         android:layout_marginBottom="5sp"
+         android:layout_marginTop="5sp"
+         android:layout_marginRight="20sp"
+         android:layout_marginLeft="20sp"
+         android:layout_below="@id/hint"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+</RelativeLayout>

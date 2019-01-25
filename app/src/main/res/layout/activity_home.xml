@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/tryb">
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_marginRight="20sp"
+                android:layout_marginLeft="20sp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/start"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5sp"
+                    android:background="@drawable/hover"
+                    android:padding="10sp"
+                    android:text="Start"
+                    android:textSize="30sp" />
+                <Button
+                    android:id="@+id/fbpage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5sp"
+                    android:background="@drawable/hover"
+                    android:padding="10sp"
+                    android:text="Win HP Books"
+                    android:textSize="25sp" />
+                <Button
+                    android:id="@+id/refer"
+                    android:text="Invite Friends"
+                    android:textSize="25sp"
+                    android:background="@drawable/hover"
+                    android:layout_margin="5sp"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/options"
+                    android:text="Reset"
+                    android:textSize="25sp"
+                    android:background="@drawable/hover"
+                    android:layout_margin="5sp"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/exit"
+                    android:text="About Us"
+                    android:textSize="25sp"
+                    android:background="@drawable/hover"
+                    android:layout_margin="5sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backk">
+
+    <ImageView
+        android:id="@+id/tilteImage"
+        android:layout_width="wrap_content"
+        android:layout_height="120sp"
+        android:layout_marginTop="60sp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/title" />
+    <TextView
+        android:id="@+id/printEmail"
+        android:textSize="20sp"
+        android:text="Welcome New User"
+        android:layout_margin="5sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tilteImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:id="@+id/row"
+        android:gravity="center"
+        android:layout_below="@id/printEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/points"
+        android:textSize="20sp"
+        android:text="Points:"
+        android:layout_margin="5sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/printEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/printPoints"
+        android:textSize="20sp"
+        android:text="Your Points"
+        android:textColor="@color/offer_color"
+        android:layout_margin="5sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/printEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/row2"
+        android:gravity="center"
+        android:layout_below="@id/row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/referPoints"
+            android:textSize="20sp"
+            android:text="Refers:"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/printEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/printRPoints"
+            android:textSize="20sp"
+            android:text="Your Points"
+            android:textColor="@color/offer_color"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/printEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_below="@id/row2"
+        android:layout_marginTop="20sp"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/offer_take_part"
+        android:textSize="15sp"
+        android:text="New User"
+        android:background="#AD2068"
+        android:layout_marginBottom="5sp"
+        android:layout_marginTop="5sp"
+        android:paddingLeft="20sp"
+        android:layout_marginRight="5sp"
+        android:paddingRight="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/offer_old_user"
+        android:textSize="15sp"
+        android:text="Old User"
+        android:background="#AD2068"
+        android:layout_marginBottom="5sp"
+        android:layout_marginTop="5sp"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+<Button
+    android:layout_weight="1"
+    android:id="@+id/winnner"
+    android:textSize="15sp"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@id/buttonLayout"
+    android:text="Winners"
+    android:background="#AD2068"
+    android:layout_marginBottom="5sp"
+    android:layout_marginTop="5sp"
+    android:paddingLeft="20sp"
+    android:paddingRight="20sp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/readRules"
+        android:layout_below="@id/winnner"
+        android:text="@string/read_t_amp_c_from_here"
+        android:layout_width="wrap_content"
+        android:textColor="#AD2068"
+        android:textAlignment="center"
+        android:padding="4sp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/Novus"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:text="Novus Soft"
+        android:layout_marginTop="5sp"
+        android:layout_below="@id/readRules"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
